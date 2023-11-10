@@ -1,0 +1,61 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0 15px;
+  border: 1px solid rebeccapurple;
+}
+
+.nav-items ul {
+  display: flex;
+  gap: 15px;
+  font-size: 17px;
+  list-style: none;
+  transition: all 0.6s;
+}
+
+.nav-items ul>li:hover {
+  color: coral;
+  cursor: pointer;
+}
+
+.logo {
+  width: 100px;
+}
+
+.restaurant-card-container {
+  display: grid;
+  margin-top: 2rem;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+}
+
+.card {
+  width: 300px;
+  border: 1px solid brown;
+  padding: 15px;
+  margin: 10px;
+}
+
+.card img {
+  width: 100%;
+  margin-bottom: 20px;
+}
+
+.card h3 {
+  font-size: 17px;
+  margin-bottom: 8px;
+  font-weight: 600;
+}
+
+.card h4 {
+  font-size: 15px;
+  margin-top: 4px;
+  font-weight: 500;
+}
